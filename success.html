@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Successful — Cleaners Growth</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'DM Sans',sans-serif;background:#eef4fb;color:#1a2e4a;min-height:100vh;display:flex;flex-direction:column;}
+nav{display:flex;justify-content:center;align-items:center;padding:16px 48px;background:#1a2e4a;border-bottom:2px solid #3ab4f2;}
+nav img{height:44px;}
+.main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 24px;}
+.card{background:#fff;border-radius:20px;padding:52px 44px;max-width:520px;width:100%;text-align:center;box-shadow:0 8px 40px rgba(26,46,74,0.10);}
+.icon-wrap{width:72px;height:72px;background:#eef4fb;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;}
+.icon-wrap svg{width:36px;height:36px;}
+h1{font-family:'Playfair Display',serif;font-size:28px;font-weight:900;color:#1a2e4a;margin-bottom:12px;}
+.sub{font-size:15px;color:#7a9ab5;line-height:1.7;margin-bottom:32px;}
+.what-next{background:#eef4fb;border-radius:12px;padding:20px 24px;text-align:left;margin-bottom:28px;}
+.what-next h3{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;color:#3ab4f2;margin-bottom:14px;}
+.step-row{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px;}
+.step-row:last-child{margin-bottom:0;}
+.step-num{min-width:24px;height:24px;background:#1a2e4a;color:#3ab4f2;border-radius:50%;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
+.step-text{font-size:13px;color:#5a7a99;line-height:1.5;}
+.back-btn{display:inline-block;background:#1a2e4a;color:#fff;padding:13px 28px;border-radius:8px;font-size:14px;font-weight:700;text-decoration:none;transition:background 0.2s;}
+.back-btn:hover{background:#2563a8;}
+footer{background:#1a2e4a;padding:20px 48px;text-align:center;}
+footer p{font-size:12px;color:#3a5268;}
+</style>
+</head>
+<body>
+<nav>
+  <img src="logo.png" alt="Cleaners Growth" onerror="this.style.display='none'">
+</nav>
+<div class="main">
+  <div class="card">
+    <div class="icon-wrap">
+      <svg fill="none" viewBox="0 0 24 24" stroke="#3ab4f2">
+        <circle cx="12" cy="12" r="10" stroke-width="1.5"/>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8 12l3 3 5-5"/>
+      </svg>
+    </div>
+    <h1>Payment Successful!</h1>
+    <p class="sub">Thank you for your order. Your audit has been confirmed and our team is already on it.</p>
+    <div class="what-next">
+      <h3>What happens next</h3>
+      <div class="step-row">
+        <div class="step-num">1</div>
+        <div class="step-text">Check your inbox — you will receive a confirmation email with your order details shortly.</div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">2</div>
+        <div class="step-text">Our marketing expert will review your cleaning business within the next few hours.</div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">3</div>
+        <div class="step-text">You will receive your full audit report within <strong>48 hours</strong> with a clear priority action plan.</div>
+      </div>
+    </div>
+    <a href="/" class="back-btn">Back to Home</a>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2025 Cleaners Growth &middot; All rights reserved</p>
+</footer>
+</body>
+</html>
